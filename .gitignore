@@ -1,0 +1,24 @@
+# Clinical data and caches -- never commit
+data/
+*.pkl
+*.xlsx
+*.csv
+*.docx
+experts_cache.pkl
+combined_dataset_processed.xlsx
+clinical_filtered.pkl
+
+# Outputs that may contain per-patient data
+Results_*/
+*_results.csv
+
+# Python environment
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# System
+.DS_Store
+Thumbs.db

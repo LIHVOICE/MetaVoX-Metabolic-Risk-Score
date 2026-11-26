@@ -7,7 +7,6 @@ MetaVoX is a gender-stratified mixture-of-experts (MoE) pipeline. It takes one 1
 ## System requirements
 
 - Python 3.10 with the package versions pinned in `requirements.txt` (numpy 1.23.5, pandas 2.3.3, scikit-learn 1.3.0, scipy 1.10.1, statsmodels 0.14.0, xgboost 3.2.0, matplotlib 3.7.2, seaborn 0.12.2, openpyxl 3.1.5; Jupyter for the notebooks).
-- Tested with Python 3.10 and the package versions pinned in `requirements.txt`
 - No non-standard hardware is required (no GPU). The full analysis uses all available CPU cores.
 
 ## Installation guide
@@ -73,4 +72,6 @@ Raw voice recordings, audio embeddings and participant-level clinical data are n
 
 ## License
 
-This code is released under the MIT License (see `LICENSE`).
+This code is released under the Attribution-NonCommercial 4.0 International License (see `LICENSE`).
+
+Copyright (c) 2026 Veloso, Despotovic, Elbéji, Fagherazzi (Luxembourg Institute of Health).
